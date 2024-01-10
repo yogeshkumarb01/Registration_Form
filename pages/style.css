@@ -1,0 +1,98 @@
+.div{
+  margin-left: 280px;
+  margin-top: 150px;
+  margin-bottom: 250px;
+  margin-right: 250px;
+  
+  
+}
+.name{
+  margin-left: 75px;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+.Name{
+  color: blue;
+  font-size: 25px;
+}
+.email{
+  margin-left: 75px;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+.Email{
+  color:blue;
+  font-size: 25px;
+}
+.pass{
+  margin-left: 37px;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+.Pass{
+  color:blue;
+  font-size: 25px;
+}
+
+#Submit{
+border-radius: 35px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top:5px;
+padding-bottom: 5px;
+background-color: blue;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+border: none;
+font-size: 25px;
+}
+.Reset{
+  margin-left: 180px;
+border-radius: 35px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top:5px;
+padding-bottom: 5px;
+background-color: blue;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+border: none;
+font-size: 25px;
+
+}
+.namediv{
+  margin-bottom: 15px;
+}
+.emaildiv{
+  margin-bottom: 15px;
+}
+.passdiv{
+  margin-bottom: 15px;
+}
+.title{
+  text-align: center;
+  color: blue;
+
+}
+.instead{
+  margin-left: 10px;
+}
+.successdiv{
+  text-align: center;
+  color: green;
+  margin-top: 150px;
+}
+.errordiv{
+  text-align: center;
+  color:red;
+  margin-top: 150px;
+}

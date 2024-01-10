@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration page</title>
+</head>
+<style>
+  .div{
+  margin-left: 280px;
+  margin-top: 150px;
+  margin-bottom: 250px;
+  margin-right: 250px;
+  
+  
+}
+.name{
+  margin-left: 75px;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+.Name{
+  color: blue;
+  font-size: 25px;
+}
+.email{
+  margin-left: 75px;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+.Email{
+  color:blue;
+  font-size: 25px;
+}
+.pass{
+  margin-left: 37px;
+  border-radius: 50px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 25px;
+}
+.Pass{
+  color:blue;
+  font-size: 25px;
+}
+
+#Submit{
+border-radius: 35px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top:5px;
+padding-bottom: 5px;
+background-color: blue;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+border: none;
+font-size: 25px;
+}
+.Reset{
+  margin-left: 180px;
+border-radius: 35px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top:5px;
+padding-bottom: 5px;
+background-color: blue;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+border: none;
+font-size: 25px;
+
+}
+.namediv{
+  margin-bottom: 15px;
+}
+.emaildiv{
+  margin-bottom: 15px;
+}
+.passdiv{
+  margin-bottom: 15px;
+}
+.title{
+  text-align: center;
+  color: blue;
+
+}
+</style>
+<link rel="stylesheet" href="style.css">
+<body>
+  <h1 class="title"> Sign Up</h1>
+  <form action="/register" method="post">
+    <div class= " div">
+<div class="namediv">
+     <label class="Name">Name</label>
+     <input class="name" type="text" name="name"><br><br>
+</div>
+    <div class="emaildiv">
+      <label class="Email">Email</label>
+      <input class="email" type="email" name="email"><br><br>
+    </div>
+    <div class="passdiv">
+      <label class="Pass">Password</label>
+      <input class="pass" type="password" name="password"><br><br>
+
+    </div>
+     
+   
+     <input id="Submit" type="submit">
+     <input  class ="Reset" type="reset"><br><br>
+    </div>
+    </form>
+ 
+</body>
+</html>
